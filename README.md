@@ -65,6 +65,9 @@ Tamaño: 100000, Algoritmo: shell, Tiempo: 0.098765 segundos
 
 - Además, se generará una gráfica (grafico_tiempos.png) que muestra los tiempos de ejecución de cada algoritmo en función del tamaño del arreglo.
 ```
+
+![Gráfica de Tiempos de Ejecución](grafico_tiempos.png)
+
 ## Conclusiones:
 - Alexander concluye que el programa fue desarrollado en lenguaje Python y permite comparar el rendimiento de distintos algoritmos de ordenamiento (burbuja, burbuja mejorada, selección, inserción y Shell) aplicados a arreglos de diferentes tamaños (especialmente arreglos grandes). A través de mediciones precisas con time.perf_counter(), se observa claramente que el algoritmo Shell, con una complejidad promedio de O(n log n), es el más eficiente para arreglos grandes, realizando sus tareas en un tiempo significativamente más rápido. En cambio, los métodos menos eficientes fueron burbuja y burbuja mejorada, ambos con complejidad O(n²), ya que sus tiempos de ejecución fueron muy altos. Por su parte, los algoritmos de inserción y selección, también con complejidad O(n²), mostraron tiempos de ejecución similares, que no fueron ni demasiado largos ni demasiado cortos. En contraste, el algoritmo Shell demuestra una eficiencia superior, con tiempos considerablemente más bajos, especialmente en arreglos grandes, debido a su menor complejidad computacional.
 
